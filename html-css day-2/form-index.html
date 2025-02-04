@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <h2>TO THE NEW</h2>
+        </div>
+        <div class = "home">
+            <p>Home</p>
+            <p>Quick Help</p>
+        </div>
+        
+        
+    </nav>
+    <div class="container">
+
+    
+    <div class="form-class">
+        <div class="form-heading">
+            <h2>Bug Report</h2>
+        </div>
+        
+        <form action="">
+            <label for="Title">Title:</label>
+            <input type="text" id ="Title"/>
+            <label for="Description">Description:</label>
+            <textarea name="" id="Description" rows="4"></textarea>
+            <label for="Operating-System">Operating System:</label>
+            <select name="Operating-System" id="Operating-System" required>
+                <option value="Win">Widnows XP</option>
+                <option value="Ubuntu">Ubuntu</option>
+                <option value="Mac">Mac OS</option>
+            </select>
+            <label for="product">Product:</label>
+            <select name="product" id="product" required>
+                <option value="Formoid">Formoid</option>
+                <option value="product1">Product1</option>
+                <option value="product2">Product2</option>
+                <option value="product3">Product3</option>
+            </select>
+            <label for="version">Version:</label>
+            <input type="text" id ="version">
+            <label for="license">License:</label>
+            <div class = "rbutton">
+                <div>
+                    <input type="radio" id ="license"/>
+                <label for="free">Free</label>
+                </div>
+                <div>
+                    <input type="radio" id="license">
+                <label for="business">Business</label>
+                </div>
+                
+            </div>
+           
+
+            <label for="severity">Severity:</label>
+                <select  id="severity">
+                    <option value="critical">Critical</option>
+                    <option value="low">Low</option>
+                    <option value="moderate">Moderate</option>
+                </select>
+            <label for="attach">Attachments:</label>
+            <input type="file" name="attach" id="attach">
+            
+            
+        </form>
+            <div class="btn">
+                <button type="submit">Send</button>
+            </div>
+            
+            
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.container{
+    display: grid;
+    width: 600px;
+    height: 600px;
+    background-color:beige;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:10px;
+    padding: 10px;
+    grid-template-areas: 
+    "cell-1 cell-2 cell-3"
+    "cell-4 cell-5 cell-6"
+    "cell-7 cell-8 cell-9";
+}
+.container div{
+    border: solid black;
+    background-color: #fff;
+    font-size: 100px;
+    text-align: center;
+}
+.cell-1{
+    grid-area: cell-1;
+}
+.cell-2{
+    grid-area: cell-2;
+}
+.cell-3{
+    grid-area: cell-3;
+}
+.cell-4{
+    grid-area: cell-4;
+}
+.cell-5{
+    grid-area: cell-5;
+}
+.cell-6{
+    grid-area: cell-6;
+}
+.cell-7{
+    grid-area: cell-7;
+}
+.cell-8{
+    grid-area: cell-8;
+}.cell-9{
+    grid-area: cell-9;
+}
+

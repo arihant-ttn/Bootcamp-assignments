@@ -1,0 +1,147 @@
+body{
+    margin:0;
+    padding: 0;
+}
+nav{
+    background-color: whitesmoke;
+    height: 50px;
+    border: 1px solid;
+    border-color: black;
+}
+nav  span a{
+    line-height: 40px;
+    margin-left:200px;
+    color:black;    
+    text-decoration: none;
+}
+nav span a:hover{
+        color:red;
+        font-size: 18px;
+      
+}
+#Search{
+    margin-left:400px;
+    height: 20px;
+    width: 200px;
+}
+.section-1{
+    
+    border:1px solid black;
+    height:400px ;
+    margin-top:10px;
+
+}
+.a1 h1{
+    margin:80px;
+    font-size: 30px;
+}
+#p1{
+    margin:80px;
+
+   
+}
+
+#img1{
+    
+    float:right;
+    height: 200px;
+    width: 400px;
+    margin-top: 80px;
+    margin-right:210px ;
+    background-color: black;
+    
+}
+ #Click-Me{
+    
+    
+    padding:  10px 10px;
+    background-color:orangered;
+    border-radius: 5px;
+    margin-top:30px ;
+    margin-left: 80px;
+
+ }
+
+.section-2{
+    border:1px solid black;
+    
+    height: 400px;
+    margin-top: 10px;
+    
+}
+
+.card{
+
+    margin: 14px;
+    margin-right: 30px;
+    float:right;
+    width: 30%;
+    height: 340px;
+}
+
+.card img{
+    margin: px;
+    height: 40%;
+    width: 100%;
+    background-color: black;
+} 
+
+.card a{
+    color:orangered;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 20px;
+    border: 1px solid black;
+}
+footer span > a{
+    margin: 120px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    color:black;
+
+}
+footer>span>a:hover{
+    color:red;
+    font-size: 18px;
+}
+
+#logo{
+    float: left;
+    height:50px ;
+    line-height: 30px;
+}
+footer> span >img{
+
+    margin:5px;    
+    height: 30px;
+    width: 30px;
+}
+footer >p>span{
+    margin-top: 60px;
+    padding-top: 60px;
+    margin-left: 50px;
+    color:red;
+    font-size: 10px;
+
+}
+.slogo>span>img{
+    padding-top: 10px;
+    margin-left:5px;       
+    height: 30px;
+    width: 30px;
+    animation: anim 1s  infinite;
+}
+@keyframes anim {
+    0%{
+        scale:40%;
+    }
+    50%{
+        scale:100%;
+
+    }
+    100%{
+        scale:40%;
+    }
+}

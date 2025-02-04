@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    border-radius: 1px;
+    margin-bottom: 20px;
+}
+nav h2{
+    color:#1bbc9b
+}
+.home{
+    display: flex;
+}
+.home >p{
+    margin-left: 10px;
+}
+.form-heading{
+    color: white;
+    background-color:#bcc3cb;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.form-class{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 420px;
+    
+    
+
+    
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 40px;
+    
+}
+input{
+    height: 20px;
+    border-radius: 2px;
+}
+
+form > input,select{
+    width: 200px;
+}
+.rbutton{
+    display: flex;
+    justify-content: space-between;
+}
+.rbutton>div{
+    display: flex;
+    align-items:space-between ;
+}
+form select{
+    background-color: #1bbc9b;
+    width: 200px;
+    height: 24px;
+    color:white;
+}
+
+button{
+    margin-top: 10px;
+    width: 50px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: #1bbc9b;
+    
+    
+}
+.btn{
+    margin-top:10px;
+    display: flex;
+    height: 60px;
+    background-color:#bcc3cb;
+    justify-content: flex-end;
+    width: 100%;
+    border-radius: 4px;
+    
+}
