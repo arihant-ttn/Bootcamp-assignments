@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    /* margin-top: 1px; */
 }
 nav{
     display: flex;
@@ -7,6 +8,7 @@ nav{
     background-color: whitesmoke;
     border-radius: 1px;
     margin-bottom: 20px;
+    color:#1bbc9b
 }
 nav h2{
     color:#1bbc9b
@@ -33,22 +35,28 @@ nav h2{
 .container{
     display: flex;
     justify-content: center;
+    /* border: 1px solid black; */
+    
 }
 .form-class{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 420px;    
+    width: 420px;   
+    border: 1px solid black;
+
 }
 form{
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 20px;
+    
     
 }
 input{
     height: 20px;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 form > input,select{
@@ -67,22 +75,77 @@ form select{
     width: 100%;
     height: 24px;
     color:white;
+    border-radius: 4px;
 }
 
 button{
-    margin-top: 10px;
+    margin-top: 15px;
     width: 50px;
     height: 30px;
     margin-right: 20px;
-    background-color: #1bbc9b;    
+    background-color: #1bbc9b;  
+    border-radius: 4px; 
+    color :white;
+    border: 0; 
+    opacity: 1;
 }
 .btn{
     margin-top:10px;
     display: flex;
     height: 60px;
-    background-color:#bcc3cb;
+    background-color:#eeeff1;
+
     justify-content: flex-end;
     width: 100%;
     border-radius: 4px;
     
 }
+.file-upload {
+    
+    display: flex;
+    align-items: center;
+    
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .file-upload input[type="file"] {
+    display: none;
+  }
+
+  .file-label {
+    background-color: #d3d7db;
+    padding: 5px;
+    border-radius: 3px;
+    /* border: 1px solid black; */
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+    margin-left: auto;
+  }
+
+  .file-name {
+    display: flex;
+    border: 1px solid black;
+    width: 277px;
+    padding: 6px;
+    color: #777;
+    border-radius: 5px;
+    
+  }
+  .license{
+    width: 200px;
+  }
+  .version>input{
+    width: 110px;
+    border-radius: 6px;
+    height: 28px;
+  }
+  textarea{
+    border-radius: 4px;
+  }
+  label{
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }

@@ -27,9 +27,9 @@
         </div>
         
         <form action="">
-            <label for="Title">Title:</label>
+            <label for="Title">Title*:</label>
             <input type="text" id ="Title"/>
-            <label for="Description">Description:</label>
+            <label for="Description*">Description*:</label>
             <textarea name="" id="Description" rows="4"></textarea>
             <label for="Operating-System">Operating System:</label>
             <select name="Operating-System" id="Operating-System" required>
@@ -37,15 +37,19 @@
                 <option value="Ubuntu">Ubuntu</option>
                 <option value="Mac">Mac OS</option>
             </select>
-            <label for="product">Product:</label>
+            <label for="product">Product*:</label>
             <select name="product" id="product" required>
                 <option value="Formoid">Formoid</option>
                 <option value="product1">Product1</option>
                 <option value="product2">Product2</option>
                 <option value="product3">Product3</option>
             </select>
-            <label for="version">Version:</label>
-            <input type="text" id ="version">
+            <div class="version">
+                <label for="version">Version*:</label><br>
+                <input type="text" id ="version" >
+            </div>
+           
+            <div class="license">
             <label for="license">License:</label>
             <div class = "rbutton">
                 <div>
@@ -58,7 +62,7 @@
                 </div>
                 
             </div>
-           
+        </div>
 
             <label for="severity">Severity:</label>
                 <select  id="severity">
@@ -67,12 +71,22 @@
                     <option value="moderate">Moderate</option>
                 </select>
             <label for="attach">Attachments:</label>
-            <input type="file" name="attach" id="attach">
+           <div class="file-upload">
+
+               <div>
+                   <span class="file-name">No file selected</span>
+                   
+                 </div>
+                 <label for="fileInput" class="file-label">Choose File</label>
+                   <input type="file" id="fileInput">
+               
+           </div>
             
             
         </form>
             <div class="btn">
-                <button type="submit">Send</button>
+                
+                <button type="submit" sytle = "opacity=1">Send</button>
             </div>
             
             

@@ -1,5 +1,12 @@
+.grid-container{
+    display: flex;
+    justify-content: center;
+    margin-top:40px ;
+}
 .container{
+    text-align: center;
     display: grid;
+
     width: 600px;
     height: 600px;
     background-color:beige;
@@ -14,34 +21,44 @@
 }
 .container div{
     border: solid black;
-    background-color: #fff;
+    /* background-color: #fff; */
     font-size: 100px;
+    padding: 30px;
     text-align: center;
 }
 .cell-1{
     grid-area: cell-1;
+    background-color: aqua;
 }
 .cell-2{
     grid-area: cell-2;
+    background-color: lightblue;
 }
 .cell-3{
     grid-area: cell-3;
+    background-color: lightcyan;
 }
 .cell-4{
     grid-area: cell-4;
+    background-color: lightskyblue;
 }
 .cell-5{
     grid-area: cell-5;
+    background-color: rgb(97, 226, 252);
 }
 .cell-6{
     grid-area: cell-6;
+    background-color: rgb(14, 125, 125);
 }
 .cell-7{
     grid-area: cell-7;
+    background-color: rgb(8, 192, 192);
 }
 .cell-8{
     grid-area: cell-8;
+    background-color: rgb(23, 168, 230);
 }.cell-9{
     grid-area: cell-9;
+    background-color: rgba(23, 92, 189, 0.422);
 }
 
