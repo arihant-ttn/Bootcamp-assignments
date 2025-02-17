@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Calculator.js"></script>
+    <style>
+        .container,h1{
+            
+            display: flex;
+            gap:10px;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+        .container >p {
+            display: flex;
+            flex-direction: column;
+        }
+        button{
+            width: 50px;
+            height: 20px;
+        }
+            </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <div class="container">
+    <button class="input" onclick="calculator.read()">Input</button>
+    <button class="add"onclick="calculator.add()">+</button>
+    <button class="multiply" onclick="calculator.multiply()"> x</button>
+    <button class ="divide" onclick="calculator.divide()"> / </button>
+    <button class="subtract" onclick="calculator.subtract()">-</button>
+    <p id = "Ans"></p>
+    </div>
+</body>
+</html>

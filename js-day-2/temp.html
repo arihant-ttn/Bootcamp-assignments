@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="temp.js"></script>
+    <style>
+         .container,h1{
+            
+            display: flex;
+            gap:10px;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+        .container >p {
+            display: flex;
+            flex-direction: column;
+        }
+        button{
+            width: 100px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Temperature Converter</h1>
+    <div class="container">
+    <button  onclick="temperatureConverter.read()">Input</button>
+    <button onclick="temperatureConverter.toFarenheit()">Convert to Farenheit</button>
+    <button  onclick="temperatureConverter.toKelvin()"> Convert to Kelvin</button>
+    <button  onclick="temperatureConverter.display()"> display </button>
+ 
+    </div>
+</body>
+</html>
