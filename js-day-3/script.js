@@ -74,7 +74,7 @@
 //     console.log(arguments[1]); 
 // }
 
-// showArguments("Hello", "World");
+// showArguments(1, 2);
 
 
 // function factorial(n) {
@@ -91,6 +91,8 @@
 //         console.log(arr[i]);
 //     }, i * 3000); 
 // }
+
+setInterval(console.log())
 
 var instances=0;
 var invocations=0;

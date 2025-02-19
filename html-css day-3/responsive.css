@@ -37,13 +37,13 @@ a{
     flex-wrap: wrap; */
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 10px;
 }
 .section-container,.section-container2 ,.section-container3 {
     display: flex;
     border: 1px solid black;
     height: 250px;
-    border-radius: 2px;
+    border-radius: 4px;
 } 
 .header{
     display: flex;
@@ -141,7 +141,7 @@ input{
     flex-direction: column;
     border: 1px solid black;
     height: 100%;
-
+    border-radius: 4px;
 }
 
 .head{
@@ -197,6 +197,7 @@ input{
     display: flex;
     gap:10px;
     border: 1px solid black;
+    border-radius: 4px;
     
 }
 .card > img{
