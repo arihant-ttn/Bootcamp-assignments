@@ -1,0 +1,33 @@
+[
+    {
+      "id": "E001",
+      "name": "Alice Johnson",
+      "department": "Engineering",
+      "email": "alice.johnson@example.com"
+    },
+    {
+      "id": "E002",
+      "name": "Bob Smith",
+      "department": "Product",
+      "email": "bob.smith@example.com"
+    },
+    {
+      "id": "E003",
+      "name": "Carol Lee",
+      "department": "Design",
+      "email": "carol.lee@example.com"
+    },
+    {
+      "id": "E004",
+      "name": "David Kim",
+      "department": "Analytics",
+      "email": "david.kim@example.com"
+    },
+    {
+      "id": "E005",
+      "name": "Eva Martinez",
+      "department": "Human Resources",
+      "email": "eva.martinez@example.com"
+    }
+  ]
+  

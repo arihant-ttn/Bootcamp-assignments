@@ -50,8 +50,9 @@ class UserManager{
         return `Hello, ${name}! Welcome.`;
       };
     printUserDetails():void{
-        const allUser=[...this.getAllUsers()];
-        console.log(allUser);
+        const [user1]=[...this.getAllUsers()];
+        console.log(user1);
+        // console.log(user2);
 
     }
 }
@@ -60,9 +61,9 @@ const userManager = new UserManager();
 userManager.addUser(new User(1, "lal", "lal@example.com"));
 userManager.addUser(new User(2, "Bal", "bal@example.com"));
 
-console.log(userManager.getAllUsers());
-userManager.removeUser(1);
+// console.log(userManager.getAllUsers());
+// userManager.removeUser(1);
 
-console.log(userManager.getUserGreeting("Santa"));
+// console.log(userManager.getUserGreeting("Santa"));
 
 userManager.printUserDetails()

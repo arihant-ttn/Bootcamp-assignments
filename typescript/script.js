@@ -55,15 +55,16 @@ var UserManager = /** @class */ (function () {
         return this.users;
     };
     UserManager.prototype.printUserDetails = function () {
-        var allUser = __spreadArray([], this.getAllUsers(), true);
-        console.log(allUser);
+        var user1 = __spreadArray([], this.getAllUsers(), true)[0];
+        console.log(user1);
+        // console.log(user2);
     };
     return UserManager;
 }());
 var userManager = new UserManager();
 userManager.addUser(new User(1, "lal", "lal@example.com"));
 userManager.addUser(new User(2, "Bal", "bal@example.com"));
-console.log(userManager.getAllUsers());
-userManager.removeUser(1);
-console.log(userManager.getUserGreeting("Santa"));
+// console.log(userManager.getAllUsers());
+// userManager.removeUser(1);
+// console.log(userManager.getUserGreeting("Santa"));
 userManager.printUserDetails();

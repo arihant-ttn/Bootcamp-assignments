@@ -4,7 +4,7 @@ import Theme from "./theme";
 import Login from "./login";
 import LoginUser from "./LoginUser";
 import UserProfile from "./UserProfile";
-import { useState, createContext } from "react";
+import { useState, createContext, Children } from "react";
 export const ThemeContext = createContext();
 export const UserContext = createContext();
 function App() {
@@ -23,8 +23,8 @@ function App() {
       <Login></Login>
       <hr></hr>
       <UserContext.Provider value={{ name, setName, email, setEmail, loggedIn, setLoggedIn }}>
-        <LoginUser />
-        <UserProfile />
+        <LoginUser ></LoginUser>
+        {/* <UserProfile></UserProfile> */}
       </UserContext.Provider>
       </div>
     </>

@@ -1,0 +1,16 @@
+/* styles/text.module.css */
+@import './variable.module.css';
+
+.paragraph {
+  color: var(--font-color-primary);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.secondary {
+  color: var(--font-color-secondary);
+}
+
+.accent {
+  color: var(--font-color-accent);
+}

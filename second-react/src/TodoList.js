@@ -14,6 +14,9 @@ export default function TodoList() {
     
 
   }
+  function deleteTask(indexToDelete){
+    setTask(add.filter((element,index)=>index!==indexToDelete))
+  }
   return (
     <div>
       <label>To do:</label>
@@ -27,7 +30,7 @@ export default function TodoList() {
       </button>
       <ul className="list"  style={{listStyle:"none" }}>
         {add.map((ele, index) => (
-          <li key={index}>{ele}</li>
+          <li key={index}>{ele}<button onClick={()=>deleteTask(index)}>x</button></li>
         ))}
       </ul>
     </div>

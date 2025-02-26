@@ -1,25 +1,25 @@
-// function Person(name,age,gender){
-//     this.name ='Arihant';
-//     this.age= 22;
-//     this.gender='M';
-// }
+function Person(name,age,gender){
+    this.name ='Arihant';
+    this.age= 22;
+    this.gender='M';
+}
 
-// function Employee(eid, department,salary){
-//    this.eid =1
-//     this.department="Developer";
-//     this.salary=  20000
-// }
-// function Developer(pid,project){
-//    this.pid=1;
-//    this.project='JS';
+function Employee(eid, department,salary){
+   this.eid =1
+    this.department="Developer";
+    this.salary=  20000
+}
+function Developer(pid,project){
+   this.pid=1;
+   this.project='JS';
 
-// }
+}
 
-// Employee.prototype =  new Person();
-// Developer.prototype = new Employee();
+Employee.prototype =  new Person();
+Developer.prototype = new Employee();
 
-// var dev = new Developer();
-// console.log(dev.name);
+var dev = new Developer();
+console.log(dev.name);
 
 // function tracker(fn){
 //     let invocation=0;
@@ -92,24 +92,24 @@
 //     }, i * 3000); 
 // }
 
-setInterval(console.log())
+// setInterval(console.log())
 
-var instances=0;
-var invocations=0;
+// var instances=0;
+// var invocations=0;
 
-function myfun(a,b){
-    this.a=a;
-    this.b=b;
-    console.log(this);
-    invocations++;
-    if(this!=globalThis){
-        instances++;
-    }
-}
+// function myfun(a,b){
+//     this.a=a;
+//     this.b=b;
+//     console.log(this);
+//     invocations++;
+//     if(this!=globalThis){
+//         instances++;
+//     }
+// }
 
 // myfun();
 // myfun();
 
-let fun=new myfun();
+// let fun=new myfun();
 // console.log("Invocations: "+ invocations);
 // console.log("Instances: "+ instances);
