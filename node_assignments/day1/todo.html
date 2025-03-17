@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function add() {
+        const data = document.getElementById("todo").value;
+
+        const li = document.createElement("li");
+        li.textContent = data;
+        const btn = document.createElement("button");
+        btn.innerHTML = "Delete";
+        btn.onclick = function () {
+          li.remove();
+        };
+        document.getElementById("todo-list").appendChild(li).appendChild(btn);
+
+        document.getElementById("todo").value = "";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>To Do</h1>
+    <label for="todo">Add To Do</label>
+    <input id="todo" />
+    <button onclick="add()">Add</button>
+    <ul id="todo-list"></ul>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+{
+    "teachers": [
+      { "id": 1, "name": "Alice Johnson", "subject": "Math" },
+      { "id": 2, "name": "Bob Smith", "subject": "Science" },
+      { "id": 3, "name": "Charlie Brown", "subject": "History" },
+      { "id": 4, "name": "Diana Prince", "subject": "English" },
+      { "id": 5, "name": "Edward Norton", "subject": "Physics" }
+    ],
+    "students": [
+      { "id": 1, "name": "Student 1", "teachers": [1, 2] },
+      { "id": 2, "name": "Student 2", "teachers": [1, 3] },
+      { "id": 3, "name": "Student 3", "teachers": [2, 4] },
+      { "id": 4, "name": "Student 4", "teachers": [3, 5] },
+      { "id": 5, "name": "Student 5", "teachers": [1, 4] },
+      { "id": 6, "name": "Student 6", "teachers": [2, 5] },
+      { "id": 7, "name": "Student 7", "teachers": [1, 3, 5] },
+      { "id": 8, "name": "Student 8", "teachers": [2, 4] },
+      { "id": 9, "name": "Student 9", "teachers": [3, 5] },
+      { "id": 10, "name": "Student 10", "teachers": [1, 2] },
+      { "id": 11, "name": "Student 11", "teachers": [1, 4] },
+      { "id": 12, "name": "Student 12", "teachers": [2, 3] },
+      { "id": 13, "name": "Student 13", "teachers": [3, 5] },
+      { "id": 14, "name": "Student 14", "teachers": [1, 2, 4] },
+      { "id": 15, "name": "Student 15", "teachers": [2, 3, 5] },
+      { "id": 16, "name": "Student 16", "teachers": [1, 4, 5] },
+      { "id": 17, "name": "Student 17", "teachers": [2, 3] },
+      { "id": 18, "name": "Student 18", "teachers": [3, 4] },
+      { "id": 19, "name": "Student 19", "teachers": [1, 5] },
+      { "id": 20, "name": "Student 20", "teachers": [2, 3, 4] },
+      { "id": 21, "name": "Student 21", "teachers": [1, 2] },
+      { "id": 22, "name": "Student 22", "teachers": [3, 4] },
+      { "id": 23, "name": "Student 23", "teachers": [1, 5] },
+      { "id": 24, "name": "Student 24", "teachers": [2, 3] },
+      { "id": 25, "name": "Student 25", "teachers": [1, 2, 3] },
+      { "id": 26, "name": "Student 26", "teachers": [4, 5] },
+      { "id": 27, "name": "Student 27", "teachers": [2, 3, 5] },
+      { "id": 28, "name": "Student 28", "teachers": [1, 4, 5] },
+      { "id": 29, "name": "Student 29", "teachers": [2, 3, 4] },
+      { "id": 30, "name": "Student 30", "teachers": [1, 2, 5] }
+    ]
+  }
+  
